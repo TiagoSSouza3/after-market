@@ -10,6 +10,21 @@ body {
 
 header {
     background-color: #d7fce1;
+    display: flex;
+}
+
+.page-title-box{
+    display: flex;
+    padding-left: 10.5vw;
+    padding-top: 1.5vw;
+}
+
+.page-title {
+    font-family: sans-serif;
+    font-size: 90px;
+    color: #aae666;
+    -webkit-text-stroke: 3.6px black;
+    text-shadow: 6px 6px 0 #000, -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
 }
 
 .logo-container {
