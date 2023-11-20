@@ -62,7 +62,6 @@ header {
     box-shadow: 0 0 2px 0px #000015, 12px 12px 24px 2px #000015;
 }
 
-
 .circles-container {
     display: flex;
     justify-content: space-evenly;
@@ -86,6 +85,7 @@ header {
 
 .circle:hover {
     box-shadow: 0 0 14px 4px #000015, 20px 20px 36px 5px #000015;
+    cursor: pointer;
 }
   
 .text-content {

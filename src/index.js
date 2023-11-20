@@ -62,3 +62,25 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const imageSelected = document.getElementById('image-selected');
+    const graphicBox = document.getElementById('graphic-box');
+    const buttonImage = document.querySelectorAll('.selection-button');
+    const linkImagem = document.getElementById('link-imagem');
+    const warningText = document.getElementById('warning-text');
+    const warningTextBottom = document.getElementById('warning-text-bottom');
+
+    buttonImage.forEach(function (button) {
+        button.addEventListener('click', function () {
+            imageSelected.src = this.getAttribute('data-image');
+            linkImagem.href = this.getAttribute('hyperlink');
+            graphicBox.style.display = 'flex';
+            warningText.style.display = 'inline';
+            warningTextBottom.style.display = 'inline';
+            
+        
+        });
+    });
+});
+
