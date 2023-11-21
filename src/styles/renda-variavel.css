@@ -83,6 +83,16 @@ header {
     padding: 0% 5%;
 }
 
+.text-examples {
+    font-family: sans-serif;
+    width: 23vw;
+    justify-content: center;
+    text-align: center;
+    padding-left: 22.5vw;
+    position: relative;
+    top: 25px;
+}
+
 .examples {
     display: flex;
     justify-content: space-evenly;
@@ -123,6 +133,7 @@ header {
     margin: 3px;
     -webkit-text-stroke: 1px;
     background: linear-gradient(90deg, rgba(172,170,53,1) 16%, rgba(135,172,58,1) 50%,  rgba(106,171,57,1) 100%);
+    transition: box-shadow 0.15s;
 }
 
 .selection-button:hover {
